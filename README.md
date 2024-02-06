@@ -34,4 +34,13 @@ docker run --rm --interactive --tty --volume $PWD:/app composer require --dev la
 # Lancement de la création du blog minimalist
 Source : https://github.com/nicolas-sanch/creer-minimalist-blog
 
-J'ai donc copier tout les fichier et trié au bon endroit et après quelques heures de débugage nous obtenons sur l'adresse http://localhost deux bouton un pour ce connecter et un pour s'enregistrer
+J'ai donc copier tout les fichier et trié au bon endroit et après quelques heures de débugage nous obtenons sur l'adresse http://localhost deux bouton un pour ce connecter et un pour s'enregistrer.
+
+## Accès a l'interface Web
+Suite a l'ensemble des manipulations, l'accès a l'interface web s'est faite depuis 
+http://localhost/ ou http://127.0.0.1/
+
+/login pour la connexion
+/register pour l'enregistrement
+
+Une fois tout cela fait je pouvais donc me connecter au 'dashboard'. J'ai donc voulu m'attaqué a la création du frontend. Cependant par manque de temps, je n'ai pas réussi a implémenté la partie visuelle pour l'utilisateur.
